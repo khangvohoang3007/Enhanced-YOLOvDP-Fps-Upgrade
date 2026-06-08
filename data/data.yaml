@@ -1,0 +1,6 @@
+train: /kaggle/working/YOLO-DP-main/PDT_dataset/LL/YOLO_txt/train/images
+val: /kaggle/working/YOLO-DP-main/PDT_dataset/LL/YOLO_txt/val/images 
+test: /kaggle/working/YOLO-DP-main/PDT_dataset/LL/YOLO_txt/test/images 
+
+nc: 1  
+names: ['unhealthy']
