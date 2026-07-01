@@ -33,7 +33,10 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 
 ## CODE
 
-## MODELS
+## MODEL ARCHITECTURE
+  //////////////////////////Hình chổ này
+* **Lightweight Backbone Transformation:** Replaced the heavy *Large-Scale Selective Kernel (LSK)* modules with standard **C3 blocks** to significantly reduce parameter counts and computational burden while maintaining stable feature extraction.
+* **Streamlined Neck Network (P3 Branch Pruning):** Completely eliminated the **P3 feature fusion branch** to remove redundant upsampling, concatenation, and convolution operations, shortening the information flow and directly dropping inference latency.
 
 ## EXPERIMENT
 
