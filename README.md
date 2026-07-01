@@ -2,8 +2,6 @@
 
 ## OVERVIEW
 
-## 📌 Overview
-
 This repository introduces an enhanced computing framework built upon the **YOLOvDP** architecture, originally proposed in the paper *"PDT: Uav Target Detection Dataset for Pests and Diseases Tree"* (Mingle Zhou, Rui Xing, Delong Han, Zhiyong Qi, Gang Li* - **ECCV 2024**). 
 
 While the baseline YOLOvDP model provides robust accuracy, deploying it in practical scenarios introduces severe bottlenecks. This project bridges that gap by implementing targeted optimizations to address three critical challenges in modern aerial edge computing:
@@ -20,9 +18,18 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 ### Dataset Characteristics & Specifications
 
 * **Class Focus:** `Unhealthy` (Targeting infected or damaged pine trees within the forest canopy).
+  //////////////////////////Hình chổ này
 * **Double Resolution Framework:** To optimize the model for multi-scale feature learning, the dataset is structured into two resolution tiers:
   * **LH (High Resolution):** Contains the original, full-scale raw images captured directly by the UAV.
   * **LL (Low Resolution):** Contains sub-images cropped into $640 \times 640$ patches using a **sliding window technique**, preserving local small-target details for dense detection without overloading edge memory.
+  //////////////////////////Hình chổ này
+
+### Dataset Structure:
+
+| Metric | Total Images | Train | Test | Validation |
+| --- | --- | --- | --- | --- |
+| **Number of Images Used** | 5,670 | 4,536 | 567 | 567 |
+| **Percentage** | 100% | 80% | 10% | 10% |
 
 ## CODE
 
