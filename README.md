@@ -13,6 +13,16 @@ While the baseline YOLOvDP model provides robust accuracy, deploying it in pract
 3. **High-Density Large Scale Detection:** Enhancing the feature extraction network to effectively detect dense, overlapping infected trees from high-resolution UAV forest imagery, preventing miss-detections in complex canopy structures.
 
 ## DATASET
+This project utilizes the **PDT Dataset** obtained from the official repository: [ruixing123/pdt_cwc_yolo-dp](https://github.com/ruixing123/pdt_cwc_yolo-dp). 
+
+The dataset consists of high-resolution aerial imagery captured by Unmanned Aerial Vehicles (UAVs) over a pine forest, specifically designed for evaluating object detection models in complex forestry scenarios.
+
+### Dataset Characteristics & Specifications
+
+* **Class Focus:** `Unhealthy` (Targeting infected or damaged pine trees within the forest canopy).
+* **Double Resolution Framework:** To optimize the model for multi-scale feature learning, the dataset is structured into two resolution tiers:
+  * **LH (High Resolution):** Contains the original, full-scale raw images captured directly by the UAV.
+  * **LL (Low Resolution):** Contains sub-images cropped into $640 \times 640$ patches using a **sliding window technique**, preserving local small-target details for dense detection without overloading edge memory.
 
 ## CODE
 
