@@ -56,6 +56,23 @@ Since the entire workflow (data preparation, architectural modifications, traini
    * Add the PDT dataset (`ruixing123/pdt_cwc_yolo-dp`) to the notebook environment.
 5. **Execute:** Run all cells sequentially to start model training for 50 epochs and compute inference metrics.
 
+### 📊 Benchmark & Reproduction Links
+
+All models were trained and benchmarked under identical conditions on **Kaggle** (NVIDIA Tesla P100 GPU, 50 Epochs, PDT Dataset). 
+
+You can access the exact execution scripts and reproduction logs for each model via the links below:
+
+| Model Architecture | Parameters / Efficiency | Inference Speed (FPS) | Kaggle Reproduction Link |
+| :--- | :---: | :---: | :---: |
+| **YOLOvDP-Enhanced (Our)** | **High FPS / Light** | **116.28** | [🔗 Kaggle Notebook](https://www.kaggle.com/code/khanghoanggg/yolov-dp-pdt-data-upgrade-fps?scriptVersionId=265893925) |
+| YOLOv5s | Baseline | 81.97 | [🔗 Kaggle Notebook](https://www.kaggle.com/code/gautapcode/yolov5-main?scriptVersionId=266715456) |
+| YOLOv5n | Nano Baseline | 80.00 | [🔗 Kaggle Notebook](https://www.kaggle.com/code/gautapcode/yolov5n) |
+| YOLOv8n | SOTA Baseline | 78.46 | [🔗 Kaggle Notebook](https://www.kaggle.com/code/khanghoangg/yolov8n) |
+| YOLOv11n | Latest Baseline | 67.98 | [🔗 Kaggle Notebook](https://www.kaggle.com/code/khanghoangg/yolov5-highspeed?scriptVersionId=267738526) |
+| YOLOv-DP | Original Paper | 51.02 | [🔗 Kaggle Notebook](https://www.kaggle.com/code/khanghoanggg/plant-disease-detection-yolov-dp-pdt-dataset) |
+
+> 📌 **Note:** Click on any link in the table to view the full training logs, hyperparameters, and speed evaluation code on Kaggle.
+
 ## MODEL ARCHITECTURE
 
 <p align="center">
