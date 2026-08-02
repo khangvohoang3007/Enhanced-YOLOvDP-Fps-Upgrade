@@ -103,7 +103,7 @@ You can access the exact execution scripts and reproduction logs for each model 
   <br>
 </p>
 
-### 📊 Performance Comparison
+### 🔍 Performance Comparison
 
 | Model | Precision (P) | Recall (R) | F1 Score | mAP@.5 | mAP@.5:.95 | Parameters | GFLOPs | FPS |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
