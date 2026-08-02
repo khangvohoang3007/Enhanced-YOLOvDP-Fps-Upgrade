@@ -54,6 +54,11 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 
 ## EXPERIMENT
 
+### 🧪 Experimental Setup & Results
+* **Platform:** Kaggle Notebooks
+* **GPU:** NVIDIA Tesla P100 (16GB VRAM)
+* **Framework:** PyTorch >= 1.13.0, Python 3.10+
+
 ### 📊 Performance Comparison
 
 | Model | Precision (P) | Recall (R) | F1 Score | mAP@.5 | mAP@.5:.95 | Parameters | GFLOPs | FPS |
