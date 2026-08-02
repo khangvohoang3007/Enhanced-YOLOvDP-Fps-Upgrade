@@ -85,7 +85,19 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 
 ## VISUALIZATION RESEARCH
 
+* **Full-Resolution Detection:** Detection results on large-scale, high-resolution (LH) aerial imagery.
 
+<p align="center">
+  <img src="documents/LH_image_detect.JPG" width="2000" alt="LH_image_detect">
+  <br>
+</p>
+
+* **Cropped Region Comparison:** Visual comparison between **YOLOv-DP** and **YOLOvDP-Enhanced (Our)** on cropped local patches from LH images.
+
+<p align="center">
+  <img src="documents/compare_detect.png" width="1000" alt="compare_detect">
+  <br>
+</p>
 
 ### 🚀 Enjoy your Air Quality System!
 Thanks for checking out my project! If it helps you breathe easier (or just pass your graduation), my job here is done. Feel free to contribute, report issues, or give it a ⭐ if you liked it! 😊
