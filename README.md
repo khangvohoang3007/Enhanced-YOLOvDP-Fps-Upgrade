@@ -54,6 +54,17 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 
 ## EXPERIMENT
 
+## 📊 Performance Comparison
+
+| Model | Precision (P) | Recall (R) | F1 Score | mAP@.5 | mAP@.5:.95 | Parameters | GFLOPs | FPS |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **YOLOvDP-Enhanced (Our)** | **0.887** | **0.831** | **0.858** | **0.901** | **0.603** | **6,099,030** | **12.8** | **116.28** |
+| YOLOv5s | 0.877 | 0.815 | 0.845 | 0.882 | 0.605 | 7,012,822 | 15.8 | 81.97 |
+| YOLOv5n | 0.873 | 0.808 | 0.839 | 0.880 | 0.588 | 1,760,518 | 4.1 | 80.00 |
+| YOLOv8n | 0.8721 | 0.8455 | 0.8586 | 0.9247 | 0.6396 | 3,011,043 | 8.1942 | 78.465 |
+| YOLOv11n | 0.875 | 0.8403 | 0.8573 | 0.9234 | 0.6394 | 2,590,035 | 6.4406 | 67.982 |
+| YOLOv-DP | 0.862 | 0.794 | 0.827 | 0.863 | 0.571 | 4,993,774 | 11.1 | 51.02 |
+
 ## VISUALIZATION RESEARCH
 
 
