@@ -130,12 +130,6 @@ You can access the exact execution scripts and reproduction logs for each model 
   <br>
 </p>
 
-### 🚀 Happy Detecting & Keep Researching!
-
-Thanks for checking out our project! If this repository helps you boost your model's FPS, advance your thesis, or make your agricultural UAV applications run smoother, our job here is done. 
-
-Feel free to contribute, report issues, or give this repo a ⭐ if you found it helpful! 😊
-
 ## PAPER
 
 > 📄 **Our Publication:** For detailed methodology, architectural proofs, and comprehensive experimental results, please refer to our full paper located at [`documents/paper.pdf`](documents/paper.pdf).
@@ -152,4 +146,10 @@ Feel free to contribute, report issues, or give this repo a ⭐ if you found it 
 6. Ultralytics, "Intel OpenVINO Export Integration," *Ultralytics Docs*. Available: https://docs.ultralytics.com/integrations/openvino/ (Accessed: Jan. 20, 2026).
 7. Ultralytics, "Ultralytics YOLO11 Documentation," *Ultralytics Docs*. Available: https://docs.ultralytics.com/models/yolo11/ (Accessed: Jan. 20, 2026).
 8. LogicTronix, "YOLOv5 Quantization & Compilation with Vitis AI 3.0 for Kria KV260," *Hackster.io*. Available: https://www.hackster.io/LogicTronix/yolov5-quantization-compilation-with-vitis-ai-3-0-for-kria-7b005d (Accessed: Jan. 20, 2026).
+
+### 🚀 Happy Detecting & Keep Researching!
+
+Thanks for checking out our project! If this repository helps you boost your model's FPS, advance your thesis, or make your agricultural UAV applications run smoother, our job here is done. 
+
+Feel free to contribute, report issues, or give this repo a ⭐ if you found it helpful! 😊
 
