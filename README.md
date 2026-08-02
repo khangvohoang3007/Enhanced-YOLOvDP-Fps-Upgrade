@@ -42,6 +42,20 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 
 ## CODE
 
+Since the entire workflow (data preparation, architectural modifications, training, and FPS benchmarking) was executed in the **Kaggle** cloud environment, you can easily reproduce our results using the provided Jupyter Notebook.
+
+### 🏃‍♂️ Running on Kaggle
+
+1. **Open Notebook:** Navigate to the [`notebooks/`](notebooks/) directory and open [`enhanced-yolovdp-fps-upgrade.ipynb`](notebooks/enhanced-yolovdp-fps-upgrade.ipynb).
+2. **Import to Kaggle:** 
+   * Go to [Kaggle Notebooks](https://www.kaggle.com/code) $\rightarrow$ **New Notebook**.
+   * Click **File** $\rightarrow$ **Import Notebook** and upload `enhanced-yolovdp-fps-upgrade.ipynb`.
+3. **Accelerator Setup:**
+   * In the right panel, set **Accelerator** to **GPU P100** (or T4 x2).
+4. **Attach Dataset:**
+   * Add the PDT dataset (`ruixing123/pdt_cwc_yolo-dp`) to the notebook environment.
+5. **Execute:** Run all cells sequentially to start model training for 50 epochs and compute inference metrics.
+
 ## MODEL ARCHITECTURE
 
 <p align="center">
