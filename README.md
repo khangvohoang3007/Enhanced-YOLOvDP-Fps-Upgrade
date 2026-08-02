@@ -99,8 +99,11 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
   <br>
 </p>
 
-### 🚀 Enjoy your Air Quality System!
-Thanks for checking out my project! If it helps you breathe easier (or just pass your graduation), my job here is done. Feel free to contribute, report issues, or give it a ⭐ if you liked it! 😊
+### 🚀 Happy Detecting & Keep Researching!
+
+Thanks for checking out our project! If this repository helps you boost your model's FPS, advance your thesis, or make your agricultural UAV applications run smoother, our job here is done. 
+
+Feel free to contribute, report issues, or give this repo a ⭐ if you found it helpful! 😊
 
 ## PAPER
 
