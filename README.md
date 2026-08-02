@@ -18,11 +18,20 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 ### Dataset Characteristics & Specifications
 
 * **Class Focus:** `Unhealthy` (Targeting infected or damaged pine trees within the forest canopy).
-  //////////////////////////Hình chổ này
+
+<p align="center">
+  <img src="documents/target.png" width="500" alt="Class">
+  <br>
+</p>
+
 * **Double Resolution Framework:** To optimize the model for multi-scale feature learning, the dataset is structured into two resolution tiers:
   * **LH (High Resolution):** Contains the original, full-scale raw images captured directly by the UAV.
   * **LL (Low Resolution):** Contains sub-images cropped into $640 \times 640$ patches using a **sliding window technique**, preserving local small-target details for dense detection without overloading edge memory.
-  //////////////////////////Hình chổ này
+
+<p align="center">
+  <img src="documents/PDT_LL_LH.png" width="500" alt="Images Resolution">
+  <br>
+</p>
 
 ### Dataset Structure:
 
@@ -34,7 +43,12 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 ## CODE
 
 ## MODEL ARCHITECTURE
-  //////////////////////////Hình chổ này
+
+<p align="center">
+  <img src="documents/model.png" width="500" alt="Model Structure">
+  <br>
+</p>
+
 * **Backbone:** Replaced heavy **LSK modules** with standard **C3 blocks** to reduce parameters and computational burden.
 * **Neck:** Removed the **P3 feature fusion branch** (upsampling, concatenation, and convolutions) to slash latency and boost FPS.
 
