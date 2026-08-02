@@ -103,3 +103,13 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 Thanks for checking out my project! If it helps you breathe easier (or just pass your graduation), my job here is done. Feel free to contribute, report issues, or give it a ⭐ if you liked it! 😊
 
 ## PAPER
+
+1. M. Zhou, R. Xing, D. Han, Z. Qi, and G. Li, "PDT: UAV Target Detection Dataset for Pests and Diseases," 2024.
+2. R. Agarwal, S. Hariharan, M. N. Rao, and A. Agarwal, "Weed identification using k means clustering with color spaces features in multi-spectral images taken by UAV," in *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, 2021, pp. 7047–7050.
+3. A. Hendrawan, R. Gernowo, O. D. Nurhayati, B. Warsito, and A. Wibowo, "Improvement Object Detection Algorithm Based on YoloV5 with BottleneckCSP," *IEEE*, 2022.
+4. T. Kvietkauskas, E. Pavlov, P. Stefanovic, and B. Pliuskuviene, "The Efficiency of YOLOv5 Models in the Detection of Similar Construction Details," Apr. 2024.
+5. Zunin, "Intel OpenVINO Toolkit for Computer Vision: Object Detection and Semantic Segmentation," *IEEE*, 2021.
+6. Ultralytics, "Intel OpenVINO Export Integration," *Ultralytics Docs*. Available: https://docs.ultralytics.com/integrations/openvino/ (Accessed: Jan. 20, 2026).
+7. Ultralytics, "Ultralytics YOLO11 Documentation," *Ultralytics Docs*. Available: https://docs.ultralytics.com/models/yolo11/ (Accessed: Jan. 20, 2026).
+8. LogicTronix, "YOLOv5 Quantization & Compilation with Vitis AI 3.0 for Kria KV260," *Hackster.io*. Available: https://www.hackster.io/LogicTronix/yolov5-quantization-compilation-with-vitis-ai-3-0-for-kria-7b005d (Accessed: Jan. 20, 2026).
+
