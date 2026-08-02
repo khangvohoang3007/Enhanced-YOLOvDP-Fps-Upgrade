@@ -88,7 +88,7 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 * **Full-Resolution Detection:** Detection results on large-scale, high-resolution (LH) aerial imagery.
 
 <p align="center">
-  <img src="documents/LH_image_detect.JPG" width="2000" alt="LH_image_detect">
+  <img src="documents/LH_image_detect.JPG" width="1000" alt="LH_image_detect">
   <br>
 </p>
 
