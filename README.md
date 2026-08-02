@@ -20,7 +20,7 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 * **Class Focus:** `Unhealthy` (Targeting infected or damaged pine trees within the forest canopy).
 
 <p align="center">
-  <img src="documents/target.png" width="1000" alt="Class">
+  <img src="documents/target.png" width="500" alt="Class">
   <br>
 </p>
 
@@ -45,7 +45,7 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 ## MODEL ARCHITECTURE
 
 <p align="center">
-  <img src="documents/model.png" width="500" alt="Model Structure">
+  <img src="documents/model.png" width="1000" alt="Model Structure">
   <br>
 </p>
 
