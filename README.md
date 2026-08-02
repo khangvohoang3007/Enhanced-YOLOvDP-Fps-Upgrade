@@ -63,7 +63,12 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 * **Image Size:** 640
 
 <p align="center">
-  <img src="documents/chart_training.png" width="500" alt="chart_training">
+  <img src="documents/chart_training.png" width="1000" alt="chart_training">
+  <br>
+</p>
+
+<p align="center">
+  <img src="documents/confusion_matrix.png" width="1000" alt="confusion_matrix">
   <br>
 </p>
 
