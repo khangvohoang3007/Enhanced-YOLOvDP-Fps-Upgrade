@@ -58,6 +58,14 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 * **Platform:** Kaggle Notebooks
 * **GPU:** NVIDIA Tesla P100 (16GB VRAM)
 * **Framework:** PyTorch >= 1.13.0, Python 3.10+
+* * **Epochs:** 50
+* **Batch Size:** 16 
+* **Image Size:** 640
+
+<p align="center">
+  <img src="documents/chart_traning.png" width="1000" alt="Class">
+  <br>
+</p>
 
 ### 📊 Performance Comparison
 
