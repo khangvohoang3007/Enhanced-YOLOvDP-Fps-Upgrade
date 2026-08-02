@@ -45,7 +45,7 @@ The dataset consists of high-resolution aerial imagery captured by Unmanned Aeri
 ## MODEL ARCHITECTURE
 
 <p align="center">
-  <img src="documents/model.png" width="1000" alt="Model Structure">
+  <img src="documents/chart_training.png" width="1000" alt="Model Structure">
   <br>
 </p>
 
