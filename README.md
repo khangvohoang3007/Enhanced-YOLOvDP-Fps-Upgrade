@@ -153,3 +153,11 @@ Thanks for checking out our project! If this repository helps you boost your mod
 
 Feel free to contribute, report issues, or give this repo a ⭐ if you found it helpful! 😊
 
+---
+
+### ⚡ Model Quantization & Deployment (ZCU102)
+
+Looking for quantization and edge deployment on FPGA? Check out our dedicated repository for **Vitis AI** integration and deployment on the **Xilinx ZCU102** board:
+
+👉 **[YolovDP-Enhanced-Vitis-AI-zcu102](https://github.com/khangvohoang3007/YolovDP-Enhanced-Vitis-AI-zcu102)**
+
